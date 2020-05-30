@@ -1,0 +1,51 @@
+*{
+	background-color:#172a3a;
+}
+
+
+QLineEdit {
+    border: 2px solid gray;
+    border-radius: 10px;
+    padding: 10px 2px;
+    background: white;
+	width:200px;
+}
+
+
+
+QPushButton {
+  padding:0px;
+}
+
+QLabel {
+	color:white;
+font-family: YT Sans, Roboto;
+font-style: normal;
+font-size: 20pt;
+font-weight: bold;
+}
+
+QSlider::handle:horizontal {
+	background-color:#A8DADC;
+}
+
+QSlider::groove:horizontal {
+	height: 10px;
+}
+
+QSlider::sub-page:qlineargradient {
+	background: #E63946;
+	border-top-right-radius: 5px;
+	border-bottom-right-radius: 5px;
+	border-top-left-radius: 9px;
+	border-bottom-left-radius: 9px;
+}
+
+QSlider::add-page:qlineargradient {
+	background: #F1FAEE;
+	border-top-right-radius: 9px;
+	border-bottom-right-radius: 9px;
+	border-top-left-radius: 0px;
+	border-bottom-left-radius: 0px;
+}
+
